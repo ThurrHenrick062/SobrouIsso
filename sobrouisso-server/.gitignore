@@ -1,0 +1,12 @@
+# Dependências (pesado; cada pessoa gera o seu com npm install)
+node_modules/
+
+# Variáveis de ambiente (chaves de API, segredo do JWT) -- NUNCA versionar
+.env
+
+# Banco de dados local (recriado com npm run db:init)
+*.db
+*.sqlite
+
+# Logs
+npm-debug.log*
